@@ -1,0 +1,19 @@
+# Example Terraform Variables File
+# Copy this file to terraform.tfvars and adjust the values as needed
+
+resource_group_name = "rg-aks-lab"
+location           = "East US"
+cluster_name       = "aks-lab-cluster"
+node_count         = 2
+vm_size            = "Standard_DS2_v2"
+
+# Other common Azure regions:
+# - "West US"
+# - "West Europe"
+# - "Southeast Asia"
+# - "Brazil South"
+
+# Other common VM sizes:
+# - "Standard_B2s"      (Budget-friendly)
+# - "Standard_DS2_v2"   (General purpose)
+# - "Standard_D4s_v3"   (More powerful)
